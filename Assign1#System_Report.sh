@@ -87,8 +87,7 @@ Hardware Information
 cpu: $CPU_MODEL_PROCESSOR
 Speed: $CPU_SPEED
 Ram: $RAM
-Disk(s):
-$DISKS
+Disk(s):$DISKS
 Video: $VIDEO_CARD
 
 Network Information
@@ -105,15 +104,12 @@ IP Address: $INTERFACE_IP
 System Status
 -------------
 Users Logged In: $USERS_LOGGED_IN
-Disk Space:
-$DISK_SPACE
+Disk Space:$DISK_SPACE
 Process Count: $PROCESS_COUNT
 Load Averages: $LOAD_AVERAGES
-Memory Allocation:
-$MEMORY_ALLOCATION
+Memory Allocation:$MEMORY_ALLOCATION
 Listening Network Ports: $LISTENING_PORTS
-UFW Rules:
-$UFW_RULES
+UFW Rules:$UFW_RULES
 
 EOF
 
