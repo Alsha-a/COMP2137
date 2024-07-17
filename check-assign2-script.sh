@@ -5,6 +5,12 @@ export PAGER=more
 checkscript=https://zonzorp.github.io/COMP2137/check-assign2-script.sh
 makecontainers=https://zonzorp.github.io/COMP2137/makecontainers.sh
 
+function userimpatient {
+echo "please let the script finish"
+sleep 2
+}
+trap userimpatient SIGINT
+
 echo ---Host/Student info----
 echo "
 Running on $(date)

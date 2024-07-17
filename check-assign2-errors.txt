@@ -1,14 +1,76 @@
+--2024-07-17 13:13:08--  https://zonzorp.github.io/COMP2137/makecontainers.sh
+Resolving zonzorp.github.io (zonzorp.github.io)... 185.199.110.153, 185.199.108.153, 185.199.111.153, ...
+Connecting to zonzorp.github.io (zonzorp.github.io)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13218 (13K) [application/x-sh]
+Saving to: ‘/home/alsha/makecontainers.sh’
+
+     0K .......... ..                                         100% 16.2M=0.001s
+
+2024-07-17 13:13:08 (16.2 MB/s) - ‘/home/alsha/makecontainers.sh’ saved [13218/13218]
+
 WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
-E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-sftp-server_8.9p1-3ubuntu0.10_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/t/tcp-wrappers/libwrap0_7.6.q-31build2_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-server_8.9p1-3ubuntu0.10_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/libp/libpsl/libpsl5_0.21.0-1.2build2_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/p/publicsuffix/publicsuffix_20211207.1025-1_all.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/w/wget/wget_1.21.2-2ubuntu1.1_amd64.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses-term_6.3-2ubuntu0.1_all.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/p/python-distro/python3-distro_1.7.0-1_all.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/s/ssh-import-id/ssh-import-id_5.11-0ubuntu1_all.deb  Temporary failure resolving 'archive.ubuntu.com'
-E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
 Host server1-mgmt not found in /home/alsha/.ssh/known_hosts
-ssh: connect to host server1-mgmt port 22: Connection refused
-lost connection
+Warning: Permanently added 'server1-mgmt' (ED25519) to the list of known hosts.
+
+** (generate:236): WARNING **: 17:14:16.542: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+
+** (process:234): WARNING **: 17:14:17.161: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:234): WARNING **: 17:14:17.840: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:234): WARNING **: 17:14:17.840: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 42.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+
+** (generate:3475): WARNING **: 17:14:57.185: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+
+** (process:3473): WARNING **: 17:14:57.927: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:3473): WARNING **: 17:14:58.608: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:3473): WARNING **: 17:14:58.608: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (generate:3640): WARNING **: 17:15:00.679: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+
+** (process:3638): WARNING **: 17:15:01.353: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:3638): WARNING **: 17:15:02.036: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:3638): WARNING **: 17:15:02.036: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+useradd: user 'aubrey' already exists
+useradd: user 'yoda' already exists
+useradd: user 'tiger' already exists
+useradd: user 'dennis' already exists
+useradd: user 'sandy' already exists
+useradd: user 'cindy' already exists
+useradd: user 'captain' already exists
+useradd: user 'brownie' already exists
+useradd: user 'scooter' already exists
+useradd: user 'perrier' already exists
+useradd: user 'snibbles' already exists
+
+** (generate:4208): WARNING **: 17:15:09.142: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+
+** (process:4206): WARNING **: 17:15:09.822: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:4206): WARNING **: 17:15:10.511: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:4206): WARNING **: 17:15:10.512: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
